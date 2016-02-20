@@ -5,3 +5,8 @@ we need it because we want different versions of our project.
 Q2)How is the staging area different from the working directory and the repository? What value do you think it offers?
 Staging Area: intermediate stage in which you add items to this stage from working directory so that you can combine and commit
 whatever at a particular stage in the staging area.
+
+Q3)What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Ans->Branch when:
+1)Experimental changes
+2)Do not want to affect the main work

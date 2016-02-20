@@ -1,0 +1,62 @@
+Q1)->How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Ans->   By seeing the difference between the old and new file we can find the the mistake which either took place in 
+	in the old file or in the new file.
+	
+USAGE IN LINUX :
+	diff -u oldfile.txt newfile.txt
+	output:
+	+ ->indicates the changes added to the newfile
+	- ->indicates the change  removed from newdfile
+
+USAGE IN WINDOWS :
+	FC oldfile.txt newfile.txt
+
+Q2)How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Ans->We can have versions of a file by some of the examples given below:
+1. Saving versions manualle
+2. Dropbox
+3. google docs
+4. Wikipedia
+
+when we have access to earlier versions we can always choose the better one.And also we are on safe side if we commit any
+mistake in the future versions.
+
+Q3)What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Ans-> user errors such as forgot to commit, but it offers flexibility since you can conytrol commit size.
+
+
+Q4)Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat 	each file separately?
+Ans->May be for better efficiency and version control.
+
+Q5)How can you use the commands git log and git diff to view the history of files?
+
+Ans -> git log:Show all the commits done till now :
+1)commit id
+2)Author
+3)remark
+4)date
+
+git diff commit_id1 commit_id2:
+shows all the insertions and deletions done in new commit
+
+
+Q6)How might using version control make you more confident to make changes that could break something?
+
+Ans->since we can restore the previous state we can can afford to do "less mistakes".
+
+Q7)Now that you have your workspace set up, what do you want to try using Git for?
+
+Ans->Since we have standard tools now we can use git more efficiently.
+
+
+
+
+
+
+
+
+	
+		

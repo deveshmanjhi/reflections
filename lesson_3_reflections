@@ -6,3 +6,13 @@ when you want your data to online and safe
 Q2)Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Ans->It so may be the case that suppose many people are working on the project and the owner has done some changes to it bbut
 i don't like those changes then if git automatically upadted my local repository then it would have been of no use to me.
+
+Q3)Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Ans->Branch:
+when you want to do experimental changes to the project on your system we normally do branching.
+clone:
+cloning can happen between github server and your local system or within diffrent places  in your system.
+Fork:
+Similar to clone but it creates a clone of forked repository on the github server only.
+First you fork a repository ,clone it to your system that repository will become the remote having name origin.
+to create other remote repositories you will have to choose a different name. 

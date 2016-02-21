@@ -13,3 +13,14 @@ Ans->Branch when:
 3)development work
 4)master-production
 5)change to brach yoy would love to work depending on your mood
+
+Q4)How do the diagrams help you visualize the branch structure?
+Ans-> with diagrams we can easily figure out where are branches ,their heads,the whole git structure ,history etc.
+
+Q5)What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+ANs->merging of branches helps combine code from many development changes on the project.it helpbs keep  tarck of what is 
+happening in the project.
+
+Q6)What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Ans->gits automatic merging can be conflicting when it sees two different versions of same code so 
+it promts to user to resolve it.In this it is always on safe side and so is the user.

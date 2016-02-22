@@ -15,4 +15,16 @@ cloning can happen between github server and your local system or within diffren
 Fork:
 Similar to clone but it creates a clone of forked repository on the github server only.
 First you fork a repository ,clone it to your system that repository will become the remote having name origin.
-to create other remote repositories you will have to choose a different name. 
+to create other remote repositories you will have to choose a different name.
+
+Q4)What is the benefit of having a copy of the last known state of the remote stored locally?
+Ans->Having copy  the last known state of the remote branches helps determining how much ahead/previous/synced/unsynced are we of the remote repository and we can work offline with that information.
+
+Q5)How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+ANs->If a group wants to work on a project then they can do so on github.where they can work on seperate aspects of the project 
+,propose changes by making pull requests,for a beginner it can appear as it is hard but in the long run everyone is going to enjoy it.
+
+Q6)When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Ans->when there are any experimental changes 
+when you are not sure wheather or not they will fit perfect in master or not.
+when you want to consult other people about your changes by making pull requests.
